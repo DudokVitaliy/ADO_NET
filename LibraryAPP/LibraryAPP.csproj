@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FCF4BE2D-9DD9-41EE-95C8-18DA97BE6D1D}</ProjectGuid>
+    <ProjectGuid>{1EA4F9B9-407C-462E-8A9B-5C520D975394}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>HospitalApp</RootNamespace>
-    <AssemblyName>HospitalApp</AssemblyName>
+    <RootNamespace>LibraryAPP</RootNamespace>
+    <AssemblyName>LibraryAPP</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -47,6 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="LibraryRepository.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
